@@ -1,0 +1,166 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	
+}
+div {display: block;}
+p {font: 18px/1.2  "OpenSansRegular", sans-serif;}
+a {color: rgb(52, 52, 52); font: "OpenSansRegular" sans-serif;}
+
+.header_top {
+	background-color: #fff;
+	height: 89px;
+}
+
+.logo {
+	height: 100%;
+}
+	
+.logo img {
+	float: left;
+	margin-top: 3%;
+}
+
+.logo p{
+	display: block;
+	font: 18px/1.2 'OpenSansRegular', sans-serif;
+  	color: rgb(52, 52, 52);
+  	text-transform: uppercase;
+  	margin-left: 8em;
+	margin-top: 1.2em;
+}
+.logo p:nth-child(3){
+	visibility: hidden;
+}
+
+.top_menu {
+	height: 100%;
+	display: inline-block;
+}
+
+.top_menu li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 4% 10% 0 0;
+	font: 16px/1.2  "OpenSansRegular", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+ .top_menu li:last-child {
+	margin-right: 0;
+}
+
+/*.top_menu li a{
+	color: rgb(52, 52, 52);
+}*/	
+.top_right p{
+	text-align: right;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.top_right {
+	padding-top: 1%;
+	height: 100%;
+}
+.green_selection {
+	color: #66aa33;
+}
+.tel {
+	font: 600 16px/1.2 "OpenSansRegular", sans-serif
+}
+.first_block {
+	background: url(../images/backgroud1.png) no-repeat;
+	height: 645px;
+	width: 100%;
+}
+.h1 {
+  font-size: 42px;
+  font-family: "OpenSansBold";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.actia {
+	font: 32px/1.2 "OpenSansSemiBold";
+	color: rgb(251, 195, 2);
+	text-align: center;
+}
+.actia span {
+	text-transform: uppercase;
+}
+.h2 {
+	font: 36px/1.2 "OpenSansSemibold";
+	color: rgb(70, 70, 70);
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: center;
+}
+
+.big_text {
+  font: 120px/1.2 "OpenSansSemiBold"!important;
+}
+.t_red {color: #eb4335;}
+.t_yellow {color: #fbc302;}
+.t_green {color: #66aa33;}
+.t_blue {color: #4bf;}
+.stat span {
+	font-size: 36px;
+}
+
+.stat p {
+	font-size: 18px;
+}
+.razm {
+	background: url(../images/razm.png) no-repeat;
+}
+.big_p {
+	font: 48px "OpenSansBold";
+	text-transform: uppercase;
+}
+
+.pack {
+	border: 1px solid rgb(70, 70, 70);
+	margin-right: 20px;
+	width: 30%;
+	margin-bottom: 100px;
+}
+
+.pack:nth-child(2) { border-left: 5px solid #eb4335; }
+.pack:nth-child(3)  { border-left: 5px solid #4bf; }
+.pack:nth-child(4)  { border-left: 5px solid #66aa33; margin-right: 0px;}
+
+.pack p:first-child {
+	margin: 10px;
+}
+
+.pack p:last-child {
+	float: right;
+	margin: 10px;
+}

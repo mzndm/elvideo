@@ -26,6 +26,8 @@ body textarea:required:valid {
 body {
 	
 }
+.container {width: 100%;}
+.row {margin: 0;}
 div {display: block;}
 p {font: 18px/1.2  "OpenSansRegular", sans-serif;}
 a {color: rgb(52, 52, 52); font: "OpenSansRegular" sans-serif;}

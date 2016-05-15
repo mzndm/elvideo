@@ -26,7 +26,10 @@ body textarea:required:valid {
 body {
 	
 }
-.container {width: 100%;}
+.container {
+	width: 100%;
+	padding: 0;
+}
 .row {margin: 0;}
 div {display: block;}
 p {font: 18px/1.2  "OpenSansRegular", sans-serif;}
@@ -35,6 +38,7 @@ a {color: rgb(52, 52, 52); font: "OpenSansRegular" sans-serif;}
 .header_top {
 	background-color: #fff;
 	height: 89px;
+	padding: 0 2em;
 }
 
 .logo {
@@ -96,9 +100,12 @@ a {color: rgb(52, 52, 52); font: "OpenSansRegular" sans-serif;}
 	font: 600 16px/1.2 "OpenSansRegular", sans-serif
 }
 .first_block {
-	background: url(../images/backgroud1.png) no-repeat;
+	background: url(../images/backgroud1.png);
+	background-position: center;
+	background-size: cover;
 	height: 645px;
 	width: 100%;
+	overflow: hidden;
 }
 .h1 {
   font-size: 42px;
@@ -123,6 +130,8 @@ a {color: rgb(52, 52, 52); font: "OpenSansRegular" sans-serif;}
 	text-transform: uppercase;
 	line-height: 1.2;
 	text-align: center;
+	display: inherit;
+	padding: 1em;
 }
 
 .big_text {
@@ -140,12 +149,34 @@ a {color: rgb(52, 52, 52); font: "OpenSansRegular" sans-serif;}
 	font-size: 18px;
 }
 .razm {
-	background: url(../images/razm.png) no-repeat;
+	background: url(../images/razm.png);
+	height: 530px;
+	background-size: cover;
+	background-position: center;
 }
 .big_p {
-	font: 48px "OpenSansBold";
+	font: 48px/1 "OpenSansBold";
 	text-transform: uppercase;
 }
+
+.video_razm {
+	overflow: hidden;
+	border: 1px solid gray;
+	border-left: none;
+}
+.v_r_left {
+	margin-left: 3em;
+}
+.v_r_right {
+	margin-right: 3em;
+}
+.video_razm img {
+	float: left;
+	margin-right: 1em;
+}
+/* .razm img:first-child {
+	margin-left: 2em;
+} */
 
 .pack {
 	border: 1px solid rgb(70, 70, 70);
@@ -154,7 +185,10 @@ a {color: rgb(52, 52, 52); font: "OpenSansRegular" sans-serif;}
 	margin-bottom: 100px;
 }
 
-.pack:nth-child(2) { border-left: 5px solid #eb4335; }
+.pack:nth-child(2) { 
+	border-left: 5px solid #eb4335; 
+	margin-left: 3em;
+}
 .pack:nth-child(3)  { border-left: 5px solid #4bf; }
 .pack:nth-child(4)  { border-left: 5px solid #66aa33; margin-right: 0px;}
 

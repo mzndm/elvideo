@@ -12,164 +12,348 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="shortcut icon" href="favicon.png" />
-	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
-	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
-	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
-	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<!--<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />-->
+
 	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="css/animations.css" />
+	<link rel="stylesheet" href="css/3Dslider.css">
+	<link rel="stylesheet" href="css/timeTo.css">
+
 </head>
-<body>	
+<body>
 	<div class="container">
 
 		<div class="row">
-			<div class="header_top">
-				<div class="col-md-4 col-sm-3 logo">
+		<nav class="navbar navbar-default">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 navbar-header header_top">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 logo">
 					<img src="images/elvideo.png" alt="">
 					<p>Видео реклама <br/> в интернете</p>
 					<p>Видео реклама в интернете</p>
 				</div>
 
-				<div class="col-md-6 col-sm-6 top_menu">						
-					<ul>
-						<li><a href="#numbers">Цифры</a></li>
-						<li><a href="#formats">Форматы</a></li>
-						<li><a href="#targetting">Торгентинг</a></li>
-						<li><a href="#contacts">Контакты</a></li>
-					</ul>
-				</div>
 
-				<div class="col-md-2 col-sm-3 top_right">
+
+				<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 top_menu">
+
+				             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+		                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+		            		<div class="moduletable_menu">
+								<ul class="nav navbar-nav navbar-right">
+
+									<li><a href="#numbers">Цифры</a></li>
+									<li><a href="#formats">Форматы</a></li>
+									<li><a href="#targetting">Торгентинг</a></li>
+									<li><a href="#contacts">Контакты</a></li>
+
+								</ul>
+							</div>
+						</div>
+                </div>
+
+
+
+
+				<div class="col-lg-2 col-md-2 hidden-sm hidden-xs top_right">
 					<p class="reg">
 						<a href="#">Вход</a> /
 						<a href="#">Регистрация</a>
 					</p>
 					<p class="tel">+38 <span class="green_selection">(098)</span> 412 64 86</p>
-					<p class="green_selection">Заказать звонок</p>							
+					<p class="green_selection">Заказать звонок</p>
+				</div>
+				</nav>
+			</div>
+		</div>
+
+	<div class="container">
+
+
+		<div class="row animatedParent">
+			<div class="animated fadeInDownShort  col-lg-12 col-md-12 col-sm-12 col-xs-12  first_block " data-sequence='300'>
+				<div class="fir_block">
+					<p class="animated bounceInDown h1">Размещение видео рекламы в Интернете</p>
+				<p class="animated bounceIn actia"><span>Акция!</span> 45 грн на размещение VIP (video-in-page) пакета</p>
+
+
+				<div class="timer_block">
+				<p class="timer_p">ДО КОНЦА АКЦИИ ОСТАЛОСЬ:</p>
+	<!-- timer   -->
+	<span id="date-str" style="display: none;"></span>
+
+	<span id="date2-str" style="display: none;"></span>
+
+		<div id="countdown-3"></div>
+
+	<!-- timer   -->
+				</div>
+				<div class="button_download">
+					<a href="#" class="vip_download">Заказать VIP размещение</a>
+
+					<a href="main.psd">Скачать прайс
+						<img src="images/download.png" alt="">
+					</a>
+				</div>
+					<div class="down">
+						<a href="#numbers"><img src="images/arrow-of-double-angle-pointing-down.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+
+
+		<div class="row ">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 stat animatedParent" id="numbers">
+				<span class="h2">Статистика размещения видеорекламы</span>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 animated bounceInRight" >
+					<span class="t_red"><span class="big_text">7,3</span>млн</span>
+					<p>Ежедневная аудитория площадок RON</p>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 animated bounceInRight " >
+					<span class="t_yellow"><span class="big_text">15</span>сек</span>
+					<p>Длительность ролика <br>который приносит 80% <br>конверсию</p>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 animated bounceInLeft ">
+					<span class="t_green"><span class="big_text">8</span>%</span>
+					<p>Средняя конверсия видеорекламы</p>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 animated bounceInLeft">
+					<span class="t_blue"><span class="big_text">45</span>грн</span>
+					<p>Минимальная цена размещения RON <br>video-in-page</p>
 				</div>
 			</div>
 		</div>
-		
 
-	<div class="row">
-		<div class="first_block">
-			<p class="h1">Размещение видео рекламы в Интернете</p>
-			<p class="actia"><span>Акция!</span> 45 грн на размещение VIP (video-in-page) пакета</p>
-		</div>
-	</div>
-			
-	
-
-
-	<div class="row">
-		<div class="col-md-12 stat" id="numbers">
-			<span class="h2">Статистика размещения видеорекламы</span>
-			<div class="col-md-3"> 
-				<span class="t_red"><span class="big_text">7,3</span>млн</span>
-				<p>Ежедневная аудитория площадок RON</p>
-			</div>
-			<div class="col-md-3"> 
-				<span class="t_yellow"><span class="big_text">15</span>сек</span>
-				<p>Длительность ролика <br>который приносит 80% <br>конверсию</p>
-			</div>
-			<div class="col-md-3"> 
-				<span class="t_green"><span class="big_text">8</span>%</span>
-				<p>Средняя конверсия видеорекламы</p>
-			</div>
-			<div class="col-md-3"> 
-				<span class="t_blue"><span class="big_text">45</span>грн</span>
-				<p>Минимальная цена размещения RON <br>video-in-page</p>
-			</div>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="razm" id="formats">
-			<p class="h2">Где размещаем?</p>
-			<div class="col-md-6 ">
-				<div class="video_razm v_r_left">
-					<img src="images/video1.png" alt="">					
-					<p class="big_p">Video in stream</p>
-					<p>Видеоролик размещается в плеере: перед контентом pre-roll в средине (пауза) mid-roll после контента post-roll</p>					
+		<div class="row">
+			<div class="razm animatedParent" id="formats" >
+				<p class="h2">Где размещаем?</p>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 animated bounceInRight">
+					<div class="video_razm v_r_left ">
+						<img src="images/video1.png" alt="">
+						<p class="big_p">Video in stream</p>
+						<p>Видеоролик размещается в плеере: перед контентом pre-roll в средине (пауза) mid-roll после контента post-roll</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 animated bounceInLeft">
+					<div class="video_razm v_r_right ">
+						<img src="images/video2.png" alt="">
+						<p class="big_p">Video in <br>page</p>
+						<p>Видеоролик интегрирован в контенте на странице</p>
+					</div>
 				</div>
 			</div>
-			<div class="col-md-6 ">
-				<div class="video_razm v_r_right">				
-					<img src="images/video2.png" alt="">			
-					<p class="big_p">Video in <br>page</p>
-					<p>Видеоролик интегрирован в контенте на странице</p>					
+		</div>
+
+
+
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pack_wrapper animatedParent">
+				<p class="h2">Пакеты размещения</p>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 animated bounceInLeft">
+					<div class="pack">
+						<p class="big_p">direct</p>
+						<p>Прямое (точное) размещение на нужном сайте по направлению</p>
+						<p class="big_p t_red">от 100$</p>
+					</div>
 				</div>
-			</div>			
-		</div>
-	</div>
-
-
-
-	<div class="row">
-		<div class="pack_wrapper">
-			<p class="h2">Пакеты размещения</p>
-			<div class="col-md-4 pack">
-				<p class="big_p">direct</p>
-				<p>Прямое (точное) размещение на нужном сайте по направлению</p>
-				<p class="big_p t_red">от 100$</p>
-			</div>
-			<div class="col-md-4 pack">
-				<p class="big_p">top</p>
-				<p>Размещение на сайтах премиум площадка</p>
-				<p class="big_p t_blue">от 100$</p>
-			</div>
-			<div class="col-md-4 pack">
-				<p class="big_p">ron</p>
-				<p>Размещение на других популярных площадках</p>
-				<p class="big_p t_green">от 100$</p>
-			</div>		
-		</div>
-
-		<div class="button_download">
-			<a href="main.psd">Скачать прайс
-				<img src="images/download.png" alt="">
-			</a>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="slider_wrapper">
-			<div class="slider">
-				<p class="h2">Премиум площадки для размещения</p>
-			</div>
-			
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="targeting" id="targetting">
-			<p class="h2">вы можете настроить размещение</p>
-
-			<div class="col-md-12">
-				<div class="t_wrapper col-md-4">
-					<img src="images/targ_1.png" alt="">
-					<p class="h3">Геотаргетин</p>
-					<p>По географическому расположению <br> страна, город, область</p>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 animated bounceInUp">
+					<div class="pack">
+						<p class="big_p">top</p>
+						<p>Размещение на сайтах премиум площадка</p>
+						<p class="big_p t_blue">от 100$</p>
+					</div>
 				</div>
-				<div class="t_wrapper col-md-4">
-					<img src="images/targ_2.png" alt="">
-					<p class="h3">Ротация</p>
-					<p>По частоте и времени показов</p>
-				</div>
-				<div class="t_wrapper col-md-4">
-					<img src="images/targ_3.png" alt="">
-					<p class="h3">Соц-дем таргетинг</p>
-					<p>В зависимости от возраста и пола</p>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 animated bounceInRight">
+					<div class="pack">
+						<p class="big_p">ron</p>
+						<p>Размещение на других популярных площадках</p>
+						<p class="big_p t_green">от 100$</p>
+					</div>
 				</div>
 			</div>
-			<div class="col-md-12">
-			<p class="h3">Пример: Киев, Вт-Ср 18:00-24:00, М 18-30</p>
+
+			<div class="button_download animatedParent">
+				<a href="main.psd" class="animated bounceInDown">Скачать прайс
+					<img src="images/download.png" alt="">
+				</a>
 			</div>
 		</div>
-	</div>
 
+		<div class="row">
+			<div class="slider_wrapper animatedParent">
+				<div class="slider animated bounceInUp">
+					<p class="h2">Премиум площадки для размещения</p>
+
+					<div class="buttonsWrap buttonsWrap-left">
+						<button class="left">
+								<svg version="1.1" class='capa-right' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								width="284.929px" height="284.929px" viewBox="0 0 284.929 284.929" style="enable-background:new 0 0 284.929 284.929;"
+								xml:space="preserve">
+								<g>
+									<g>
+										<path d="M165.304,142.468L277.517,30.267c1.902-1.903,2.847-4.093,2.847-6.567c0-2.475-0.951-4.665-2.847-6.567L263.239,2.857
+										C261.337,0.955,259.146,0,256.676,0c-2.478,0-4.665,0.955-6.571,2.857L117.057,135.9c-1.903,1.903-2.853,4.093-2.853,6.567
+										c0,2.475,0.95,4.664,2.853,6.567l133.048,133.043c1.903,1.906,4.086,2.851,6.564,2.851c2.478,0,4.66-0.947,6.563-2.851
+										l14.277-14.267c1.902-1.903,2.851-4.094,2.851-6.57c0-2.472-0.948-4.661-2.851-6.564L165.304,142.468z"/>
+										<path d="M55.668,142.468L167.87,30.267c1.903-1.903,2.851-4.093,2.851-6.567c0-2.475-0.947-4.665-2.851-6.567L153.6,2.857
+										C151.697,0.955,149.507,0,147.036,0c-2.478,0-4.668,0.955-6.57,2.857L7.417,135.9c-1.903,1.903-2.853,4.093-2.853,6.567
+										c0,2.475,0.95,4.664,2.853,6.567l133.048,133.043c1.902,1.906,4.09,2.851,6.57,2.851c2.471,0,4.661-0.947,6.563-2.851
+										l14.271-14.267c1.903-1.903,2.851-4.094,2.851-6.57c0-2.472-0.947-4.661-2.851-6.564L55.668,142.468z"/>
+									</g>
+								</g>
+
+							</svg>
+						</button>
+					</div>
+
+					<div id="carousel">
+						<img class='cloud9-item'  src="images/slider/PdTWpgS1.png" >
+						<img class='cloud9-item'  src="images/slider/2.png" >
+						<img class='cloud9-item'  src="images/slider/3.png" >
+						<img class='cloud9-item'  src="images/slider/4.png" >
+						<img class='cloud9-item'  src="images/slider/5.png" >
+						<img class='cloud9-item'  src="images/slider/6.png" >
+						<img class='cloud9-item'  src="images/slider/7.png" >
+						<img class='cloud9-item'  src="images/slider/8.png" >
+						<img class='cloud9-item'  src="images/slider/3.png" >
+					</div>
+
+					<div class="buttonsWrap buttonsWrap-right">
+						<button class="right">
+
+							<svg version="1.1" class='capa-left' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							width="284.936px" height="284.936px"  viewBox="0 0 284.936 284.936" style="enable-background:new 0 0 284.936 284.936;"
+							xml:space="preserve">
+							<g>
+								<g>
+									<path d="M277.515,135.9L144.464,2.857C142.565,0.955,140.375,0,137.9,0c-2.472,0-4.659,0.955-6.562,2.857l-14.277,14.275
+									c-1.903,1.903-2.853,4.089-2.853,6.567c0,2.478,0.95,4.664,2.853,6.567l112.207,112.204L117.062,254.677
+									c-1.903,1.903-2.853,4.093-2.853,6.564c0,2.477,0.95,4.667,2.853,6.57l14.277,14.271c1.902,1.905,4.089,2.854,6.562,2.854
+									c2.478,0,4.665-0.951,6.563-2.854l133.051-133.044c1.902-1.902,2.851-4.093,2.851-6.567S279.417,137.807,277.515,135.9z"/>
+									<path d="M170.732,142.471c0-2.474-0.947-4.665-2.857-6.571L34.833,2.857C32.931,0.955,30.741,0,28.267,0s-4.665,0.955-6.567,2.857
+									L7.426,17.133C5.52,19.036,4.57,21.222,4.57,23.7c0,2.478,0.95,4.664,2.856,6.567L119.63,142.471L7.426,254.677
+									c-1.906,1.903-2.856,4.093-2.856,6.564c0,2.477,0.95,4.667,2.856,6.57l14.273,14.271c1.903,1.905,4.093,2.854,6.567,2.854
+									s4.664-0.951,6.567-2.854l133.042-133.044C169.785,147.136,170.732,144.945,170.732,142.471z"/>
+								</g>
+							</g>
+
+							</svg>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="targeting animatedParent" id="targetting">
+				<p class="h2">вы можете настроить размещение</p>
+
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 t_wrapper animated bounceInRight">
+						<img src="images/targ_1.png" alt="">
+						<p class="h3">Геотаргетин</p>
+						<p>По географическому расположению <br> страна, город, область</p>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 t_wrapper animated bounceInUp">
+						<img src="images/targ_2.png" alt="">
+						<p class="h3">Ротация</p>
+						<p>По частоте и времени показов</p>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 t_wrapper animated bounceInLeft">
+						<img src="images/targ_3.png" alt="">
+						<p class="h3">Соц-дем таргетинг</p>
+						<p>В зависимости от возраста и пола</p>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<p class="h3">Пример: Киев, Вт-Ср 18:00-24:00, М 18-30</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row animatedParent">
+			<div class="animated fadeInDownShort  col-lg-12 col-md-12 col-sm-12 col-xs-12  second_block " data-sequence='300'>
+				<div class="sec_block">
+					<p class="animated bounceInDown h1">Размещение видео рекламы в Интернете</p>
+					<p class="animated bounceIn actia"><span>Акция!</span> 45 грн на размещение VIP (video-in-page) пакета</p>
+
+
+				<div class="timer_block">
+				<p class="timer_p">ДО КОНЦА АКЦИИ ОСТАЛОСЬ:</p>
+	<!-- timer   -->
+				<span id="date-str1" style="display: none;"></span>
+
+				<span id="date2-str1" style="display: none;"></span>
+
+					<div id="countdown-31"></div>
+
+	<!-- timer   -->
+				</div>
+				<div class="button_download">
+					<a href="#" class="vip_download">Заказать VIP размещение</a>
+
+					<a href="main.psd">Скачать прайс
+						<img src="images/download.png" alt="">
+					</a>
+				</div>
+				</div>
+			</div>
+
+
+		</div>
+
+		<div class="row">
+			<footer>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contacts">
+
+					<div>
+						<img src="images/telephone.png" alt="">
+					</div>
+					<div>
+						<p class="h4">+38 <span class="t_green">(044)</span> 200 16 68</p>
+						<p class="h4">+38 <span class="t_green">(044)</span> 361 82 96</p>
+						<p class="h4">+38 <span class="t_green">(044)</span> 412 22 22</p>
+					</div>
+
+					<div class="footer_nav">
+					<ul>
+						<li><a href="#static">Цифры</a></li>
+						<li><a href="#where">Форматы</a></li>
+						<li><a href="#placement">Таргетинг</a></li>
+						<li><a href="#header">Контакты</a></li>
+					</ul>
+				</div>
+
+				<div class="footer_social">
+					<a href="#"><img src="images/skype.svg" alt=""></a>
+					<a href="#"><img src="images/mail.png" alt=""></a>
+					<a href="#"><img src="images/viber.png" alt=""></a>
+				</div>
+
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<p class="h3">Задать вопрос</p>
+					<form class="footer_form">
+						<input type="text" placeholder="Имя" required>
+						<input type="text" placeholder="E-mail" required>
+						<textarea  cols="30" rows="7">Cообщение</textarea>
+						<input type="submit" value="Отправить">
+					</form>
+				</div>
+			</footer>
+		</div>
 
 
 
@@ -181,18 +365,51 @@
 	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
-	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
-	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
-	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
-	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
-	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
-	<script src="libs/countdown/jquery.plugin.js"></script>
-	<script src="libs/countdown/jquery.countdown.min.js"></script>
-	<script src="libs/countdown/jquery.countdown-ru.js"></script>
-	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- <script src="libs/jquery/jquery-1.11.1.min.js"></script> -->
 	<script src="js/common.js"></script>
-	<script src="jquery.time-to.js"></script>
+	<script src='js/css3-animate-it.js'></script>
+	<script src='js/3Dslider.js'></script>
+	<script src='js/jquery.time-to.js'></script>
+	<script src='js/bootstrap.min.js'></script>
+
+	<!--<script>window.jQuery || document.write('<script src="node_modules/jquery/dist/jquery.min.js"><\/script>')</script>-->
+
+
+   <script>
+
+
+        var date = getRelativeDate(20);
+
+        document.getElementById('date-str').innerHTML = date.toString();
+
+
+
+        /**
+         * Set theme and captions
+         */
+        $('#countdown-3').timeTo({
+            timeTo: date,
+            displayDays: 2,
+            theme: "black",
+            displayCaptions: true,
+            fontSize: 48,
+            captionSize: 14
+        });
+
+        function getRelativeDate(days, hours, minutes){
+            var date = new Date((new Date()).getTime() + 60000 /* milisec */ * 60 /* minutes */ * 24 /* hours */ * days /* days */);
+
+            date.setHours(hours || 0);
+            date.setMinutes(minutes || 0);
+            date.setSeconds(0);
+
+            return date;
+        }
+    </script>
+
+
+
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>

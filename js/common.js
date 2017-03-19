@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/*$(document).ready(function() {
 
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
@@ -83,4 +83,4 @@ $(document).ready(function() {
 		return false;
 	});
 
-});
+});*/
